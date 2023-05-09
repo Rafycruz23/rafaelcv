@@ -5,7 +5,7 @@ function downloadFile(RafaelCruzLC101) {
     link.setAttribute('type', 'application/pdf');
     link.style.display = 'none';
 
-    if (window.navigator && window.navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+    if (window.navigator && window.navigator.userAgent.match(/(iPhone|iPad|Android)/)) {
     
       window.open(link.getAttribute('href'));
     } else {
