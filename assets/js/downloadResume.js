@@ -1,7 +1,7 @@
-function downloadFile(RafaelCruzLC101) {
+function downloadFile(RafaelCRUZ) {
     var link = document.createElement('a');
-    link.setAttribute('download', RafaelCruzLC101);
-    link.setAttribute('href', 'images/' + RafaelCruzLC101);
+    link.setAttribute('download', RafaelCRUZ);
+    link.setAttribute('href', 'images/' + RafaelCRUZ);
     link.setAttribute('type', 'application/pdf');
     link.style.display = 'none';
 
