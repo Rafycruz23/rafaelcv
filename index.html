@@ -30,11 +30,9 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Rafael Cruz</h1>
-							<h3>I am a recent Web Development Bootcamp Graduate looking for exciting opportunities in the tech world. Have a look around and reach out! </h3>
+							<h3>Welcome to my page!</h3>
 							<br>
-							<p>Born in Puerto Rico, I moved to the US mainland in 2012 to pursue my education in International Relations / Strategic Intelligence. Soon after graduating, opportunities arose in the government and non-profit sector where I sharpened my administrative, costumer service, and database management skills. After a few years in the non-prfit sector I decided to pursue a career in tech. I recently completed LaunchCode's Web Development program on October 2022.
-
-							Currently enrolled in Community College of Philadelphia's Cybersecurity Bootcamp, and enrolled at IEBS Cybersecurity Masters' Degree starting in October 2024.
+							<p>Born in Puerto Rico, I moved to the US mainland in 2012 to pursue my education in International Relations / Strategic Intelligence. Soon after graduating, opportunities arose in the government and non-profit sector where I sharpened my administrative, costumer service, and database management skills. After a few years in the non-profit sector I decided to pursue a career in tech. I completed LaunchCode's Web Development program on October 2022 as well as Community College of Philadelphia's Cybersecurity Bootcamp in 2023. I am currently enrolled at IEBS Cybersecurity Masters' Degree and have recently passed ISC2 CC Certificate. 
 							</p>
 							<ul class="actions">
 								<li><a onclick="downloadFile('RafaelCRUZ.pdf')" href="" class="button scrolly">Download Resume</a></li>
@@ -69,14 +67,20 @@
 							</div>
 						</section>
 					</section>
-						<section id="one" wrapper style1 major">
-								<video 
-									width=100%
-									height=auto 
-									autoplay
-									src="videos/Project1 Networking.mp4" >
-								</video>
-							</section>
+				<div class="gallery-container">
+					<div class="gallery">
+						<!-- <section id="one" wrapper style1 major> -->
+							<video width=100% height=auto controls controlsList="nodownload">
+								<source src="videos/Project1 Networking.mp4" type="video/mp4"> 
+							</video>
+							<video width=100% height=auto controls controlsList="nodownload">
+								<source src="videos/pentestDemo-RafaelCruz.mp4" type="video/mp4">
+							</video>
+					<!-- </section> -->
+					</div>
+					<button class="prev" onclick="prevVideo()">&#10094;</button>
+        			<button class="next" onclick="nextVideo()">&#10095;</button>
+				</div>
 
 				<!-- Two --> 
 					<section id="two" class="wrapper style3 fade-up">
@@ -101,7 +105,7 @@
 								<section>
 									<span class="icon solid major fa-suitcase"></span>
 									<h3>Work Experience</h3>
-									<p>5 years of experience in the business / non-profit sector</p>
+									<p>7 years of experience in the business / non-profit sector</p>
 								</section>
 								<section class="last-section">
 									<span class="icon solid major fa-plane"></span>
@@ -169,6 +173,7 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/downloadResume.js"></script>
+			<script src="assets/js/showVideo.js"></script>
 
 	</body>
 </html>
