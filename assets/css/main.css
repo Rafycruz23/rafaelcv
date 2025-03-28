@@ -3495,19 +3495,19 @@ input, select, textarea {
 	}
 
 	/* VIDEO SECTION */
-	.gallery-container {
+.gallery-container {
 		position: relative;
 		width: 100%;
 		max-width: 100%;
 		overflow: hidden;
 	}
 	
-	.gallery {
+.gallery {
 		display: flex;
 		transition: transform 0.5s ease-in-out;
 	}
 	
-	.gallery video {
+.gallery video {
 		min-width: 100%;
 		max-width: 100%;
 		height: auto;
